@@ -11,8 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
-    "express": "^4.17.2",
-    "re-auth-api": "^1.0.2"
+    "express": "^4.17.2"
   },
   "repository": {
     "type": "git",

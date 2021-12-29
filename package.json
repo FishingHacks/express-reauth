@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
     "express": "^4.17.2",
-    "re-auth-api": "^1.0.1"
+    "re-auth-api": "^1.0.2"
   }
 }

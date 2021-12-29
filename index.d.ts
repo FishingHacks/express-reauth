@@ -20,4 +20,6 @@ import { Request, Response } from "express";
  * res.send("Authorized");
  * });```
 */
-function getUser(token: string, id: string, req: Request, res: Response): User|boolean;
+declare function getUser(token: string, id: string, req: Request, res: Response): User | boolean;
+
+export default getUser;

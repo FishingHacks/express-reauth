@@ -1,6 +1,6 @@
 # express-reauth
 
-This is build on top of the [ReAuthAPI](https://github.com/RedCrafter07/Re-Auth-API) für [ReAuth](https://auth.redcrafter07.de/)
+This is build on top of the [ReAuthAPI](https://github.com/RedCrafter07/Re-Auth-API) for [ReAuth](https://auth.redcrafter07.de/) by [RedCrafter07](https://github.com/RedCrafter07/)
 
 usage:
 ```javascript

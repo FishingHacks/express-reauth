@@ -13,3 +13,7 @@ res.send("Authorized");
 ```
 
 please note, that you need to set /login to the redirect url of your application
+
+[NPM package](https://www.npmjs.com/package/@fishinghacksorg/reauth-express)
+
+npm i @fishinghacksorg/reauth-express

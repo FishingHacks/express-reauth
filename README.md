@@ -11,3 +11,5 @@ if(!user) return;
 res.send("Authorized");
 });
 ```
+
+please note, that you need to set /login to the redirect url of your application

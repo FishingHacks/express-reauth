@@ -4,8 +4,8 @@ This is build on top of the [ReAuthAPI](https://github.com/RedCrafter07/Re-Auth-
 
 usage:
 ```javascript
-app.get("/login", (req, res) => {
-let user = getUser("<your-token>", "<your-id>", req, res);
+app.get("/login", async (req, res) => {
+let user = await getUser("<your-token>", "<your-id>", req, res);
 if(!user) return;
 //process
 res.send("Authorized");

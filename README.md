@@ -5,10 +5,15 @@ This is build on top of the [ReAuthAPI](https://github.com/RedCrafter07/Re-Auth-
 usage:
 ```javascript
 app.get("/login", async (req, res) => {
-let user = await getUser("<your-token>", "<your-id>", req, res);
-if(!user) return;
-//process
-res.send("Authorized");
+    try {
+        let user = await getUser("<your-token>", "<your-id>", req, res);
+    }
+    catch {
+        return res.send("Unauthorized");
+    }
+    if(!user) return;
+    //process
+    res.send("Authorized");
 });
 ```
 

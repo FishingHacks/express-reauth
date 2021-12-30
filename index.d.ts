@@ -14,7 +14,12 @@ import { Request, Response } from "express";
  * example:
  * 
  * ```app.get("/login", async (req, res) => {
+ * try {
  * let user = await getUser("<your-token>", "<your-id>", req, res);
+ * }
+ * catch {
+ * return res.send("Unauthorized");
+ * }
  * if(!user) return;
  * //process
  * res.send("Authorized");

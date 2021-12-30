@@ -27,29 +27,14 @@ module.exports = class {
         },
       })
       .then((res) => (returnValue = res.data))
-      .catch((e) =>
+      .catch((e) => {
         console.error(
-            `[RE-AUTH-API]: API Error: ${e.response.status} | ${e.response.statusText} | ${e.response.data}`
-        )
-      );
-
-    return returnValue;
-  }
-
-  async validate() {
-    let returnValue;
-    await axios
-      .get("https://auth.redcrafter07.de/api", {
-        headers: {
-          Authorization: this.token,
-          ID: this.id,
-        },
-      })
-      .then((res) => (returnValue = res.data))
-      .catch((e) =>
-        console.error(
-            `[RE-AUTH-API]: API Error: ${e.response.status} | ${e.response.statusText}`
-        )
+          `[RE-AUTH-API]: API Error: ${e.response.status} | ${e.response.statusText} | ${e.response.data}`
+        );
+        throw new Error(
+          `[RE-AUTH-API]: API Error: ${e.response.status} | ${e.response.statusText} | ${e.response.data}`
+        );
+      }
       );
 
     return returnValue;

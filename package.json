@@ -1,6 +1,6 @@
 {
   "name": "reauth-express",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is build on top of the [ReAuthAPI](https://github.com/RedCrafter07/Re-Auth-API) for [ReAuth](https://auth.redcrafter07.de/) by [RedCrafter07](https://github.com/RedCrafter07/)",
   "main": "index.js",
   "scripts": {

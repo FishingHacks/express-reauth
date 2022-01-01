@@ -17,6 +17,22 @@ app.get("/login", async (req, res) => {
 });
 ```
 
+re-auth-api:
+```js
+reauthExpress.api;
+```
+
+new Functions:
+```js
+getSettings(token);
+getSetting(token, JSONPath);
+deleteSetting(token(, JSONPath));
+setSetting(token(, JSONPath));
+getCSRFToken(token);
+deleteCSRFToken(CSRFToken);
+getInfos(applicationID);
+```
+
 please note, that you need to set /login to the redirect url of your application
 
 ```

@@ -1,9 +1,5 @@
 # express-reauth
 
-# Important note
-Re-Auth is no longer online, but you can download the sourcecode, when it will get published. This package should completely apply, when you change a few urls.
-
-
 This is build on top of the [ReAuthAPI](https://github.com/RedCrafter07/Re-Auth-API) for [ReAuth](https://auth.redcrafter07.de/) by [RedCrafter07](https://github.com/RedCrafter07/)
 
 usage:

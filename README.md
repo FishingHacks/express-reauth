@@ -1,5 +1,8 @@
 # express-reauth
 
+# IMPORTANT
+Re-Auth has been shut down. This package will no longer work. You can read more on our [homepage](https://auth.redcrafter07.de). In case RedCrafter07 is going to release the sourcecode, it should work with your self-deployed api/website, after some personalizations (changing the urls)
+
 This is build on top of the [ReAuthAPI](https://github.com/RedCrafter07/Re-Auth-API) for [ReAuth](https://auth.redcrafter07.de/) by [RedCrafter07](https://github.com/RedCrafter07/)
 
 usage:
